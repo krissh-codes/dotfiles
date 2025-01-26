@@ -1,0 +1,8 @@
+[user]
+email = akrishnamoorthy007@gmail.com
+name = krissh-the-dev
+[alias]
+mb = !git checkout -b
+coa = !git add --all && git commit -m
+ecm = !git commit --amend -m
+sts = !git status

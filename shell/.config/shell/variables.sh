@@ -1,0 +1,7 @@
+ set lab "sas@172.20.87.115"
+ set crmmail "sas@172.20.38.37"
+ set silab "sas@172.20.27.49"
+ set mailtest "sas@172.20.90.191"
+ set db_server "sas@172.20.24.243"
+ set crmed "sas@172.20.26.65"
+ set mail1 "sas@172.20.45.160"

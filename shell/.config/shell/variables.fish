@@ -1,0 +1,7 @@
+export lab="sas@172.20.87.115"
+export crmmail="sas@172.20.38.37"
+export silab="sas@172.20.27.49"
+export mailtest="sas@172.20.90.191"
+export db_server="sas@172.20.24.243"
+export crmed="sas@172.20.26.65"
+export mail1="sas@172.20.45.160"
