@@ -1,0 +1,23 @@
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = true
+window-colorspace = display-p3
+window-theme = system
+window-decoration = true
+background-opacity = 0.7
+background-blur-radius = 50
+window-step-resize = true
+theme = dark:catppuccin-mocha,light:catppuccin-latte
+cursor-style = block
+font-family = FiraCode Nerd Font
+# window-title-font-family = Inter Variable
+macos-option-as-alt = true
+font-size = 11.5
+macos-titlebar-style = tabs
+
+command = /opt/homebrew/bin/fish --login --interactive
+
+# fish
+keybind = cmd+backspace=text:\x15
+# zsh
+keybind = cmd+backspace=esc:w

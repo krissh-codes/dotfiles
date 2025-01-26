@@ -1,0 +1,39 @@
+name:
+  .trash: 
+  .cargo: 
+  .emacs.d: 
+  a.out: 
+  node_modules: 
+  lib: 
+  documents: 󰧮
+  downloads:  
+  music:  
+  pictures:  
+  desktop: 
+  dev:  
+  movies:  
+  work:  
+  .config: 󰢻
+  dotfiles: 󰢻
+  README.md: 
+  readme.md: 
+
+extension:
+  go: 
+  hs: 
+  js: 
+  java: 
+  db: 
+  log: 
+  md: 󰽛
+  
+filetype:
+  dir: 
+  file: 
+  socket: 󰆨
+  executable: 
+  symlink-dir: 
+  symlink-file: 
+  device-char: 
+  device-block: 󰜫
+  special: 
