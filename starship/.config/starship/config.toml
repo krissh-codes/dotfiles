@@ -96,3 +96,6 @@ charging_symbol = '󱐥'
 
 [nodejs]
 detect_folders = []
+
+[package]
+disabled = true
