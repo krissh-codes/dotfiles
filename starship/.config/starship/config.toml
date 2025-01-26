@@ -93,3 +93,6 @@ threshold = 40
 style = 'bold yellow'
 discharging_symbol = '󰁼'
 charging_symbol = '󱐥'
+
+[nodejs]
+detect_folders = []
