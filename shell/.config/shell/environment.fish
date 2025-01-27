@@ -13,3 +13,5 @@ set -g LDFLAGS "-L/opt/homebrew/opt/postgresql@9.5/lib"
 set -g CPPFLAGS "-I/opt/homebrew/opt/postgresql@9.5/include"
 set -Ux STARSHIP_CONFIG /Users/krishna-13961/.config/starship/config.toml
 set -Ux STARSHIP_CACHE /Users/krishna-13961/.config/starship/cache
+
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
