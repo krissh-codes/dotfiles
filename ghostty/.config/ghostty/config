@@ -17,7 +17,7 @@ macos-titlebar-style = tabs
 
 command = /opt/homebrew/bin/fish --login --interactive
 
-# fish
+keybind = cmd+left=text:\x01
+keybind = cmd+right=text:\x05
 keybind = cmd+backspace=text:\x15
-# zsh
-keybind = cmd+backspace=esc:w
+keybind = option+backspace=text:\x17
