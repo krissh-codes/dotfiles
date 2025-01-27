@@ -1,7 +1,6 @@
+source ~/.config/shell/environment.fish
 
 if status --is-interactive
-	source ~/.config/shell/environment.fish
-
 	source ~/.config/shell/aliases.sh
 	source ~/.config/shell/variables.fish
 	source ~/.config/shell/functions.fish
