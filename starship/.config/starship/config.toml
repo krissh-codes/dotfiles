@@ -40,8 +40,8 @@ disabled = false
 only_detached = false
 tag_disabled = false
 style = 'green'
-format = '[󰜘 $hash $tag]($style)'
-tag_symbol = "|  "
+format = '[󰜘 $hash$tag ]($style)'
+tag_symbol = " |  "
 
 [git_status]
 ahead = '[⇡${count}](lavender) '
