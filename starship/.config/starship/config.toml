@@ -45,10 +45,10 @@ tag_symbol = " |  "
 
 [git_status]
 ahead = '[⇡${count}](lavender) '
-behind = '⇣ ${count}'
+behind = '⇣${count}'
 conflicted = '󱡷 '
 deleted = '󱀷 ${count} '
-diverged = '⇕⇡${ahead_count}⇣${behind_count} '
+diverged = '⇡${ahead_count} ⇣${behind_count} '
 format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](218)($ahead_behind)]($style)"
 modified = '[ ${count}](peach) '
 renamed = ' '
