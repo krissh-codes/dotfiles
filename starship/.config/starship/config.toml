@@ -78,12 +78,12 @@ format = "[has $symbol $percentage]($style) "
 
 [[battery.display]]
 threshold = 30
-discharging_symbol = '󰁻'
+discharging_symbol = '󰁼'
 charging_symbol = '󱐥'
 style = 'bold red'
 
 [[battery.display]]
-threshold = 28
+threshold = 20
 discharging_symbol = '󰂃'
 charging_symbol = '󱐥'
 style = 'bold red'
@@ -91,7 +91,7 @@ style = 'bold red'
 [[battery.display]]
 threshold = 40
 style = 'bold yellow'
-discharging_symbol = '󰁼'
+discharging_symbol = '󰁽'
 charging_symbol = '󱐥'
 
 [nodejs]
