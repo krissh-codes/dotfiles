@@ -39,17 +39,15 @@ date: relative
 
 # == Dereference ==
 # Whether to dereference symbolic links.
-# Possible values: false, true
 dereference: false
 
 # == Display ==
 # What items to display. Do not specify this for the default behavior.
 # Possible values: all, almost-all, directory-only
-# display: all
+display: almost-all
 
 # == Icons ==
 icons:
-  # When to use icons.
   # When "classic" is set, this is set to "never".
   # Possible values: always, auto, never
   when: always
@@ -67,7 +65,6 @@ icons:
 
 # == Indicators ==
 # Whether to add indicator characters to certain listed files.
-# Possible values: false, true
 indicators: false
 
 # == Layout ==
@@ -78,20 +75,14 @@ layout: grid
 
 # == Recursion ==
 recursion:
-  # Whether to enable recursion.
-  # Possible values: false, true
   enabled: false
-  # How deep the recursion should go. This has to be a positive integer. Leave
-  # it unspecified for (virtually) infinite.
   depth: 2
 
 # == Size ==
-# Specifies the format of the size column.
 # Possible values: default, short, bytes
 size: default
 
 # == Permission ==
-# Specify the format of the permission column
 # Possible value: rwx, octal, attributes (windows only), disable
 # permission: rwx
 
@@ -130,7 +121,7 @@ symlink-arrow: ⇒
 # == Header ==
 # Whether to display block headers.
 # Possible values: false, true
-header: false
+header: true
 
 # == Literal ==
 # Whether to show quotes on filenames.
