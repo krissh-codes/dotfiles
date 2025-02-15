@@ -1,6 +1,6 @@
 {
     "features": {
-        "inline_completion_provider": "none"
+        "edit_prediction_provider": "zed"
     },
     "outline_panel": {
         "dock": "right",
@@ -18,7 +18,7 @@
         "show_nav_history_buttons": false,
         "show": true
     },
-    "ui_font_family": "Inter Variable",
+    "ui_font_family": "JetBrains Sans",
     "ui_font_size": 14.5,
     "buffer_font_family": "FiraCode Nerd Font",
     "buffer_font_size": 12,
