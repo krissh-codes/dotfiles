@@ -1,4 +1,12 @@
 {
+    "assistant": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-3-5-sonnet-latest"
+        },
+        "version": "2"
+    },
+    "icon_theme": "Material Icon Theme",
     "features": {
         "edit_prediction_provider": "zed"
     },
