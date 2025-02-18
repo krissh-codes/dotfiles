@@ -8,7 +8,8 @@
   {
     "context": "Editor",
     "bindings": {
-      "cmd + o": "project_symbols::Toggle"
+      "cmd + o": "project_symbols::Toggle",
+      "cmd + backspace": "editor::DeleteLine"
     }
   }
 ]

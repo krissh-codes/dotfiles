@@ -1,8 +1,9 @@
 {
     "assistant": {
+        "dock": "left",
         "default_model": {
             "provider": "zed.dev",
-            "model": "claude-3-5-sonnet-latest"
+            "model": ""
         },
         "version": "2"
     },
@@ -15,7 +16,7 @@
         "auto_fold_dirs": true
     },
     "project_panel": {
-        "dock": "left"
+        "dock": "right"
     },
     "theme": {
         "mode": "system",
@@ -27,9 +28,9 @@
         "show": true
     },
     "ui_font_family": "JetBrains Sans",
-    "ui_font_size": 14.5,
+    "ui_font_size": 15.0,
     "buffer_font_family": "FiraCode Nerd Font",
-    "buffer_font_size": 12,
+    "buffer_font_size": 12.0,
     "toolbar": {
         "breadcrumbs": false,
         "quick_actions": false
