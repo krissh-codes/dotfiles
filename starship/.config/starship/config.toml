@@ -32,10 +32,9 @@ read_only = '󱪨 '
 " /work" = " "
 ".config" = "󰢻"
 "dotfiles" = "󰢻 dotfiles"
-"/lib" = ' lib'
 "lib/" = ' lib'
 "/lib/" = ' lib'
-"  lib" = ' lib'
+" /lib" = ' lib'
 "node_modules" = ' node_modules'
 
 [git_commit]
