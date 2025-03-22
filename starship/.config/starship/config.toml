@@ -47,7 +47,7 @@ tag_symbol = " |  "
 
 [git_status]
 ahead = '[⇡${count}](lavender) '
-behind = '⇣${count}'
+behind = '⇣${count} '
 conflicted = '󱡷 '
 deleted = '󱀷 ${count} '
 diverged = '⇡${ahead_count} ⇣${behind_count} '
