@@ -1,5 +1,5 @@
 # !sh /bin/bash
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 export BREW_PATH=/opt/homebrew/bin/brew
 export MYSQL_PATH=/usr/local/mysql/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin:$BREW_PATH:$MYSQL_PATH
