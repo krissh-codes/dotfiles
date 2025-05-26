@@ -10,6 +10,8 @@
     ecm = commit --amend -m
     cmt = commit -m
     
+    recent = log --oneline -n 4
+    
     psuh = push
     pm = checkout master && pull origin master && checkout -
     fpush = push --force-with-lease
