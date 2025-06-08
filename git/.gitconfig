@@ -10,8 +10,6 @@ coa = commit -am
 ecm = commit --amend -m
 cmt = commit -m
 
-recent = log --oneline -n 4
-
 psuh = push
 pm = checkout master && pull origin master && checkout -
 fpush = push --force-with-lease
@@ -28,12 +26,14 @@ rhs = reset HEAD~1 --soft
 rh = reset HEAD~1
 
 ra = rebase --abort
+recent = log --oneline -n 4
 hist = log --one-line -10
 psr = stash && git pro $1 && stash pop && push
 
 delta = !delta $(defaults read -g AppleInterfaceStyle &>/dev/null || echo --light)
 # or to ensure dark is default in Codespaces (Linux)
 delta = !delta $(defaults read -g AppleInterfaceStyle 2>&1 | grep 'does not exist' >/dev/null && echo --light)
+cx-pick = !sh ~/tools/scripts/cherry-picker.sh
 
 [user]
 email = krishna.moorthy@zohocorp.com
