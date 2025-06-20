@@ -50,7 +50,7 @@ path = ~/personal/.gitconfig
 path = ~/work/.gitconfig
 
 [init]
-templatedir = ~/.git_templates
+	templatedir = ~/.git_templates
 defaultBranch = main
 
 [pull]
