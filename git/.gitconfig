@@ -50,7 +50,7 @@ path = ~/personal/.gitconfig
 path = ~/work/.gitconfig
 
 [init]
-	templatedir = ~/.git_templates
+templatedir = ~/.git_templates
 defaultBranch = main
 
 [pull]
@@ -62,7 +62,6 @@ autoSetupRemote = true
 
 [core]
 excludeFile = ~/.config/git/.gitignore
-hooksPath = /dev/null/
 compression = 0
 editor = vi
 pager = delta
