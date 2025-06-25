@@ -34,6 +34,7 @@ delta = !delta $(defaults read -g AppleInterfaceStyle &>/dev/null || echo --ligh
 # or to ensure dark is default in Codespaces (Linux)
 delta = !delta $(defaults read -g AppleInterfaceStyle 2>&1 | grep 'does not exist' >/dev/null && echo --light)
 cx-pick = !sh ~/tools/scripts/cherry-picker.sh
+rebase-commit = !sh ~/tools/scripts/rebase-commit.sh
 
 [user]
 email = krishna.moorthy@zohocorp.com
