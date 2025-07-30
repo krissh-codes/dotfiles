@@ -1,5 +1,8 @@
 {
-    "icon_theme": "Material Icon Theme",
+    "icon_theme": {
+        "dark": "Colored Zed Icons Theme Dark",
+        "light": "Colored Zed Icons Theme Light"
+    },
     "features": {
         "edit_prediction_provider": "zed"
     },
@@ -12,8 +15,8 @@
     },
     "theme": {
         "mode": "system",
-        "light": "Catppuccin Latte (Blur)",
-        "dark": "Catppuccin Mocha (Blue Blur+)"
+        "light": "Dawnfox - blurred",
+        "dark": "Nordfox - blurred"
     },
     "tab_bar": {
         "show_nav_history_buttons": false,
