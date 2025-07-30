@@ -1,12 +1,4 @@
 {
-    "assistant": {
-        "dock": "left",
-        "default_model": {
-            "provider": "zed.dev",
-            "model": ""
-        },
-        "version": "2"
-    },
     "icon_theme": "Material Icon Theme",
     "features": {
         "edit_prediction_provider": "zed"
@@ -48,13 +40,11 @@
     "terminal": {
         "font_family": "MesloLGM Nerd Font",
         "copy_on_select": true,
+        "font_fallbacks": ["FiraCode Nerd Font"],
         "shell": {
             "program": "/opt/homebrew/bin/fish"
         },
-        "font_size": 11.5,
-        "toolbar": {
-            "title": false
-        }
+        "font_size": 12.0
     },
     "soft_wrap": "editor_width"
 }
