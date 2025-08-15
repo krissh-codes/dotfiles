@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 add_newline = true
-command_timeout = 4000
+command_timeout = 2000
 format = "[⚡](fg:yellow) [krissh](fg:purple) at $all"
 
 [character]
