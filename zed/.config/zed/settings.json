@@ -1,53 +1,56 @@
 {
+    "base_keymap": "JetBrains",
+    "confirm_quit": true,
+    "format_on_save": "off",
+    "preferred_line_length": 180,
+    "remove_trailing_whitespace_on_save": false,
+    "soft_wrap": "editor_width",
+    "tab_size": 4,
+    "use_on_type_format": false,
+    "buffer_font_family": "MesloLGM Nerd Font",
+    "buffer_font_features": {
+        "liga": true
+    },
+    "buffer_font_size": 12.0,
+    "ui_font_family": ".SystemUIFont",
+    "ui_font_size": 15.0,
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
     "icon_theme": {
         "dark": "Colored Zed Icons Theme Dark",
         "light": "Colored Zed Icons Theme Light"
     },
-    "features": {
-        "edit_prediction_provider": "zed"
+    "theme": {
+        "dark": "Nordfox - blurred",
+        "light": "Dawnfox - blurred",
+        "mode": "system"
     },
     "outline_panel": {
-        "dock": "right",
-        "auto_fold_dirs": true
+        "auto_fold_dirs": true,
+        "dock": "right"
     },
     "project_panel": {
         "dock": "right"
     },
-    "theme": {
-        "mode": "system",
-        "light": "Dawnfox - blurred",
-        "dark": "Nordfox - blurred"
-    },
     "tab_bar": {
-        "show_nav_history_buttons": false,
-        "show": true
+        "show": true,
+        "show_nav_history_buttons": false
     },
-    "ui_font_family": ".SystemUIFont",
-    "ui_font_size": 15.0,
-    "buffer_font_family": "MesloLGM Nerd Font",
-    "buffer_font_size": 12.0,
-    "toolbar": {
-        "breadcrumbs": false,
-        "quick_actions": false
-    },
-    "base_keymap": "JetBrains",
-    "buffer_font_features": {
-        "liga": true
-    },
-    "confirm_quit": true,
-    "tab_size": 4,
-    "remove_trailing_whitespace_on_save": false,
-    "use_on_type_format": false,
-    "format_on_save": "off",
-    "preferred_line_length": 180,
     "terminal": {
-        "font_family": "MesloLGM Nerd Font",
         "copy_on_select": true,
         "font_fallbacks": ["FiraCode Nerd Font"],
+        "font_family": "MesloLGM Nerd Font",
+        "font_size": 12.0,
         "shell": {
             "program": "/opt/homebrew/bin/fish"
         },
-        "font_size": 12.0
+        "toolbar": {
+            "breadcrumbs": false
+        }
     },
-    "soft_wrap": "editor_width"
+    "toolbar": {
+        "breadcrumbs": false,
+        "quick_actions": false
+    }
 }
