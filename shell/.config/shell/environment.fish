@@ -1,4 +1,4 @@
-set -Ux JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+set -Ux JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-17.58.25/Contents/Home
 set BREW_PATH /opt/homebrew/bin/brew
 set BREW_BIN /opt/homebrew/bin
 set MYSQL_PATH /usr/local/mysql/bin
