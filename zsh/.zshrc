@@ -2,13 +2,12 @@
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
 # Q pre block. Keep at the top of this file.
 
-source ~/.config/shell/oh-my-zsh.sh
-
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 
 # bun completions
 # [ -s "/Users/krishna-13961/.bun/_bun" ] && source "/Users/krishna-13961/.bun/_bun"
 
+source ~/.config/shell/oh-my-zsh.sh
 source ~/.config/shell/init.sh
 source ~/.config/shell/integrations.sh
 

@@ -1,14 +1,19 @@
 # !sh /bin/bash
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.58.25/Contents/Home
+
 export BREW_PATH=/opt/homebrew/bin/brew
 export BREW_BIN=/opt/homebrew/bin
+
 export MYSQL_PATH=/usr/local/mysql/bin
-export PSQL_PATH=/Applications/Postgres.app/Contents/Versions/latest/bin
-export PATH=$PATH:$PSQL_PATH:$BREW_PATH:$MYSQL_PATH
-export PATH="$PATH:~/node_modules/.bin":"./node_modules/grunt-cli/bin"
 export PG_DATA=~/Library/Application\ Support/Postgres/var-9.5
+export PSQL_PATH=/Applications/Postgres.app/Contents/Versions/latest/bin
+
+export NPM_GLOBAL=~/node_modules/.bin
+export GRUNT_PATH=~/node_modules/grunt-cli/bin
+
+export PATH=$PATH:$PSQL_PATH:$BREW_PATH:$BREW_BIN:$MYSQL_PATH:$NPM_GLOBAL:$GRUNT_PATH
+
 export ECLIPSEZIDEPATH=~/dev/
-export PATH=$PATH:~/zoho/scripts:$BREW_BIN
 
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@9.5/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@9.5/include"
