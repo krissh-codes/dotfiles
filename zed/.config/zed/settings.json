@@ -45,9 +45,6 @@
             "liga": false
         },
         "font_size": 12.0,
-        "shell": {
-            "program": "/opt/homebrew/bin/fish"
-        },
         "toolbar": {
             "breadcrumbs": false
         }
