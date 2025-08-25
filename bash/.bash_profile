@@ -4,8 +4,6 @@
 source ~/.config/shell/environment.sh
 source ~/.config/shell/aliases.sh
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 export ZERO_HELPER_STATUS=OFF
 export GPG_TTY=$(tty)
 

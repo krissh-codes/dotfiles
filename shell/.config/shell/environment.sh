@@ -18,3 +18,5 @@ export STARSHIP_CACHE="/Users/krishna-13961/.config/starship/cache"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
