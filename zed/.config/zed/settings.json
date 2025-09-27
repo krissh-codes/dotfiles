@@ -19,12 +19,15 @@
     },
     "icon_theme": {
         "dark": "Colored Zed Icons Theme Dark",
-        "light": "Colored Zed Icons Theme Light"
+        "light": "Catppuccin Latte"
     },
     "theme": {
-        "dark": "Nordfox - blurred",
-        "light": "Dawnfox - blurred",
+        "dark": "Catppuccin Espresso (Blur) [Light]",
+        "light": "Catppuccin Latte (Blur) [Light]",
         "mode": "system"
+    },
+    "experimental.theme_overrides": {
+        "border": "#cccccc20"
     },
     "outline_panel": {
         "auto_fold_dirs": true,
