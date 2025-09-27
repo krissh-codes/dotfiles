@@ -17,9 +17,7 @@ font-family = MesloLGM Nerd Font
 macos-option-as-alt = true
 font-size = 11.5
 macos-titlebar-style = tabs
-
-command = /opt/homebrew/bin/fish --login --interactive
-
+command = /bin/zsh
 keybind = cmd+left=text:\x01
 keybind = cmd+right=text:\x05
 keybind = cmd+backspace=text:\x15
