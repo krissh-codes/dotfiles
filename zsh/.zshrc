@@ -8,7 +8,9 @@
 # [ -s "/Users/krishna-13961/.bun/_bun" ] && source "/Users/krishna-13961/.bun/_bun"
 
 source ~/.config/shell/oh-my-zsh.sh
+source ~/.config/shell/environment.sh
 source ~/.config/shell/init.sh
+source ~/.config/shell/aliases.sh
 source ~/.config/shell/integrations.sh
 
 # [[ -f "$HOME/fig-export/dotfiles/dotfile.zsh" ]] && builtin source "$HOME/fig-export/dotfiles/dotfile.zsh"

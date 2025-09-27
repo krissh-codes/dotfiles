@@ -26,4 +26,6 @@ export STARSHIP_CACHE=~/.config/starship/cache
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+. "$HOME/.cargo/env"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+source /opt/homebrew/opt/asdf/libexec/asdf.sh

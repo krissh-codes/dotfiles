@@ -1,2 +1,2 @@
 
-. "$HOME/.cargo/env"
+# echo "zshenv loaded: $$, SHLVL=$SHLVL, LOGIN=$ZLOGIN"
