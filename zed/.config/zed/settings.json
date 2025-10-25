@@ -27,7 +27,8 @@
         "mode": "system"
     },
     "experimental.theme_overrides": {
-        "border": "#cccccc20"
+        "border": "#cccccc20",
+        "search.match_background": "#5050ff90"
     },
     "outline_panel": {
         "auto_fold_dirs": true,
