@@ -91,3 +91,8 @@ conflictstyle = diff3
 
 [diff]
 colorMoved = default
+[pack]
+threads = 4
+window = 10
+depth = 10
+packSizeLimit = 20g
