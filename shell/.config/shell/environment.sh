@@ -5,8 +5,8 @@ export BREW_PATH=/opt/homebrew/bin/brew
 export BREW_BIN=/opt/homebrew/bin
 
 export MYSQL_PATH=/usr/local/mysql/bin
-export PG_DATA=~/Library/Application\ Support/Postgres/var-9.5
-export PSQL_PATH=/Applications/Postgres.app/Contents/Versions/latest/bin
+export PG_DATA=~/Library/Application\ Support/Postgres/crm
+export PSQL_PATH=/Applications/Postgres.app/Contents/Versions/9.6/bin
 
 export NPM_GLOBAL=~/node_modules/.bin
 export GRUNT_PATH=~/node_modules/grunt-cli/bin
@@ -15,8 +15,8 @@ export PATH=$PATH:$PSQL_PATH:$BREW_PATH:$BREW_BIN:$MYSQL_PATH:$NPM_GLOBAL:$GRUNT
 
 export ECLIPSEZIDEPATH=~/dev/
 
-export LDFLAGS="-L/opt/homebrew/opt/postgresql@9.5/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/postgresql@9.5/include"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@9.6/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@9.6/include"
 
 # starship
 export STARSHIP_CONFIG=~/.config/starship/config.toml
@@ -26,6 +26,6 @@ export STARSHIP_CACHE=~/.config/starship/cache
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
