@@ -2,7 +2,20 @@
 
 DOWNLOADS="$HOME/Downloads"
 LOGFILE="$DOWNLOADS/.tidy-downloads.log"
-DRY_RUN=1   # set to 1 for dry-run
+DRY_RUN=0
+
+for arg in "$@"; do
+  case "$arg" in
+    --dry-run)
+      DRY_RUN=1
+      ;;
+  esac
+done
+
+# ---- env-based hard disable ----
+if [ "${DISABLE_TIDY_DOWNLOADS:-0}" = "1" ]; then
+  exit 0
+fi
 
 EXCLUDE_NAMES=(
 	"*.part"
