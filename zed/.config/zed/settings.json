@@ -30,7 +30,7 @@
         "edit_prediction_provider": "zed"
     },
     "icon_theme": {
-        "dark": "Colored Zed Icons Theme Dark",
+        "dark": "Catppuccin Mocha",
         "light": "Catppuccin Latte"
     },
     "theme": {
