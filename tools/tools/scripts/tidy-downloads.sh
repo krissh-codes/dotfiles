@@ -114,6 +114,8 @@ move_safe() {
 	log "moved: $(basename "$src") -> $(basename "$target")"
 }
 
+log "run-start: dir=$DOWNLOADS days=$DAYS logging=$LOGGING dry_run=$DRY_RUN"
+
 find "$DOWNLOADS" -maxdepth 1 -type f -mtime +"$DAYS" | while read -r file; do
 	base="$(basename "$file")"
 	is_excluded "$base" && continue
