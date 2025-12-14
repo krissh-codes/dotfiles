@@ -3,6 +3,7 @@
         "stepping_granularity": "instruction"
     },
     "autosave": "off",
+    "buffer_font_weight": 400.0,
     "agent": {
         "default_model": {
             "provider": "copilot_chat",
