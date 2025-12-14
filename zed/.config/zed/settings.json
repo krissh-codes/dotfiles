@@ -1,4 +1,7 @@
 {
+    "debugger": {
+        "stepping_granularity": "instruction"
+    },
     "base_keymap": "JetBrains",
     "confirm_quit": true,
     "format_on_save": "off",
