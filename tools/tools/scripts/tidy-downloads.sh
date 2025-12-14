@@ -28,7 +28,16 @@ EXCLUDE_NAMES=(
 )
 
 log() {
-	printf "[%s] %s\n" "$(date '+%Y-%m-%d %H:%M:%S')" "$1" >>"$LOGFILE"
+	msg="$1"
+	ts="[$(date '+%Y-%m-%d %H:%M:%S')]"
+
+	if [ "$DRY_RUN" -eq 1 ]; then
+		echo "$ts $msg"
+		return
+	fi
+
+	[ "$LOGGING" -eq 1 ] || return
+	printf "%s %s\n" "$ts" "$msg" >>"$LOGFILE"
 }
 
 ensure_dir() {
@@ -55,7 +64,7 @@ move_safe() {
 	target="$dest_dir/$base"
 
 	if [ "$DRY_RUN" -eq 1 ]; then
-		echo "DRY-RUN: $src -> $target"
+		log "dry-run move: $src -> $target"
 		return
 	fi
 
