@@ -1,21 +1,51 @@
 #!/usr/bin/env bash
 
+# ---- defaults ----
 DOWNLOADS="$HOME/Downloads"
-LOGFILE="$DOWNLOADS/.tidy-downloads.log"
+DAYS=2
+LOGGING=1
 DRY_RUN=0
 
-for arg in "$@"; do
-  case "$arg" in
-    --dry-run)
-      DRY_RUN=1
-      ;;
-  esac
+# ---- env overrides ----
+[ -n "${TIDY_DOWNLOADS_DIR:-}" ] && DOWNLOADS="$TIDY_DOWNLOADS_DIR"
+[ -n "${TIDY_DAYS:-}" ] && DAYS="$TIDY_DAYS"
+[ -n "${TIDY_LOGGING:-}" ] && LOGGING="$TIDY_LOGGING"
+
+# ---- CLI overrides ----
+while [ $# -gt 0 ]; do
+	case "$1" in
+		--dir)
+			DOWNLOADS="$2"
+			shift    2
+			;;
+		--days)
+			DAYS="$2"
+			shift 2
+			;;
+		--log)
+			LOGGING=1
+			shift
+			;;
+		--no-log)
+			LOGGING=0
+			shift
+			;;
+		--dry-run)
+			DRY_RUN=1
+			shift
+			;;
+		*)
+			shift
+			;;
+	esac
 done
 
-# ---- env-based hard disable ----
+# ---- hard disable ----
 if [ "${DISABLE_TIDY_DOWNLOADS:-0}" = "1" ]; then
-  exit 0
+	exit 0
 fi
+
+LOGFILE="$DOWNLOADS/.tidy_downloads.log"
 
 EXCLUDE_NAMES=(
 	"*.part"
@@ -51,7 +81,7 @@ is_excluded() {
 
 	for p in "${EXCLUDE_NAMES[@]}"; do
 		case "$lname" in
-			$p)  return 0 ;;
+			$p) return 0 ;;
 		esac
 	done
 	return 1
@@ -84,7 +114,7 @@ move_safe() {
 	log "moved: $(basename "$src") -> $(basename "$target")"
 }
 
-find "$DOWNLOADS" -maxdepth 1 -type f -mtime +2 | while read -r file; do
+find "$DOWNLOADS" -maxdepth 1 -type f -mtime +"$DAYS" | while read -r file; do
 	base="$(basename "$file")"
 	is_excluded "$base" && continue
 	lname="$(printf '%s' "$base" | tr '[:upper:]' '[:lower:]')"
