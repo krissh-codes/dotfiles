@@ -134,6 +134,10 @@ find "$DOWNLOADS" -maxdepth 1 -type f -mtime +"$DAYS" | while read -r file; do
 			dir="$DOWNLOADS/images"
 			;;
 
+		*.ttf | *.otf | *.woff | *.woff2 | *.eot | *.ttc | *.otb | *.pfa | *.pfb | *.dfont | *.suit)
+			dir="$DOWNLOADS/fonts"
+			;;
+
 		*.mp4 | *.mkv | *.avi | *.mov | *.webm | *.flv | *.wmv | *.m4v | *.3gp)
 			dir="$DOWNLOADS/videos"
 			;;
