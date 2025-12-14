@@ -116,7 +116,18 @@ move_safe() {
 
 log "run-start: dir=$DOWNLOADS days=$DAYS logging=$LOGGING dry_run=$DRY_RUN"
 
-find "$DOWNLOADS" -maxdepth 1 -type f -mtime +"$DAYS" | while read -r file; do
+AGE_FILTER=()
+if [[ ! "$DAYS" =~ ^[0-9]+$ ]]; then
+    DAYS=2
+fi
+
+if [ "$DAYS" -gt 0 ]; then
+    AGE_FILTER=(-mtime +"$DAYS")
+elif [ "$DAYS" -eq 0 ]; then
+    AGE_FILTER=()
+fi
+
+find "$DOWNLOADS" -maxdepth 1 -type f ${AGE_FILTER:+"${AGE_FILTER[@]}"} | while read -r file; do
 	base="$(basename "$file")"
 	is_excluded "$base" && continue
 	lname="$(printf '%s' "$base" | tr '[:upper:]' '[:lower:]')"
