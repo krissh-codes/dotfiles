@@ -3,6 +3,13 @@
         "stepping_granularity": "instruction"
     },
     "autosave": "off",
+    "agent": {
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-4.1"
+        },
+        "model_parameters": []
+    },
     "base_keymap": "JetBrains",
     "confirm_quit": true,
     "format_on_save": "off",
