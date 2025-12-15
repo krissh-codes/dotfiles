@@ -1,5 +1,5 @@
 # !sh /bin/bash
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.58.25/Contents/Home
+export JAVA_HOME=/Users/krishna-13961/.asdf/installs/java/zulu-17.62.17/zulu-17.jdk/Contents/Home/
 
 export BREW_PATH=/opt/homebrew/bin/brew
 export BREW_BIN=/opt/homebrew/bin
