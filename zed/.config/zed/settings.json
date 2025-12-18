@@ -11,7 +11,7 @@
         },
         "model_parameters": []
     },
-    "base_keymap": "JetBrains",
+    "base_keymap": "VSCode",
     "confirm_quit": true,
     "format_on_save": "off",
     "preferred_line_length": 180,
@@ -23,7 +23,7 @@
     "buffer_font_features": {
         "liga": true
     },
-    "buffer_font_size": 12.0,
+    "buffer_font_size": 11.0,
     "ui_font_family": "Metropolis",
     "ui_font_size": 15.0,
     "features": {
@@ -60,7 +60,7 @@
         "font_features": {
             "liga": false
         },
-        "font_size": 12.0,
+        "font_size": 11,
         "line_height": "comfortable",
         "toolbar": {
             "breadcrumbs": false
