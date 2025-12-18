@@ -1,4 +1,4 @@
 
 # echo "zshenv loaded: $$, SHLVL=$SHLVL, LOGIN=$ZLOGIN"
-WORDCHARS=${WORDCHARS//\/}
+WORDCHARS=${WORDCHARS//[\/\.]/}
 export WORDCHARS
