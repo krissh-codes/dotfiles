@@ -47,8 +47,8 @@ minRacyThreshold = 0 nanoseconds
 [includeIf "gitdir:~/personal/"]
 path = ~/personal/.gitconfig
 
-[includeIf "gitdir:~/work/"]
-path = ~/work/.gitconfig
+[includeIf "gitdir:~/dev/"]
+path = ~/dev/.gitconfig
 
 [init]
 defaultBranch = main
