@@ -1,4 +1,3 @@
-# !sh /bin/bash
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
 export JAVA_HOME=/Users/krishna-13961/.asdf/installs/java/zulu-17.62.17/zulu-17.jdk/Contents/Home/
 
