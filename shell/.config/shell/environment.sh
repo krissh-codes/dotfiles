@@ -5,7 +5,6 @@ export BREW_PATH=/opt/homebrew/bin/brew
 export BREW_BIN=/opt/homebrew/bin
 
 export MYSQL_PATH=/usr/local/mysql/bin
-export LOCAL_BIN=/usr/local/bin
 export PG_DATA=~/Library/Application\ Support/Postgres/crm
 export PSQL_PATH=/Applications/Postgres.app/Contents/Versions/9.6/bin
 
@@ -14,7 +13,7 @@ export GRUNT_PATH=~/node_modules/grunt-cli/bin
 export BUN_INSTALL="$HOME/.bun"
 export BUN_PATH="$BUN_INSTALL/bin"
 
-export PATH=$PATH:$PSQL_PATH:$BREW_PATH:$BREW_BIN:$MYSQL_PATH:$NPM_GLOBAL:$GRUNT_PATH:$LOCAL_BIN:$BUN_PATH
+export PATH=$PATH:$PSQL_PATH:$BREW_PATH:$BREW_BIN:$MYSQL_PATH:$NPM_GLOBAL:$GRUNT_PATH:$BUN_PATH
 
 export ECLIPSEZIDEPATH=~/dev/
 
