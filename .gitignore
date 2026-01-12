@@ -21,3 +21,7 @@ rad.json
 #Test results file
 TestResults.xml
 .idea
+
+/tools/tools/grid/
+/tools/tools/work
+/tools/tools/Ligaturizer
