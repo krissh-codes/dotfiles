@@ -25,3 +25,5 @@ TestResults.xml
 /tools/tools/grid/
 /tools/tools/work
 /tools/tools/Ligaturizer
+
+starship/.config/starship/cache/
