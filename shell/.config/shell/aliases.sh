@@ -9,5 +9,6 @@ alias ports='lsof -i -P | grep LISTEN | grep :$PORT'
 alias got='git'
 alias gt='git'
 
-alias search="find . -iname"
+alias search="fd -ig"
 alias cls="clear"
+alias curl=curlie
