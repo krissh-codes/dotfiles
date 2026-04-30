@@ -99,5 +99,8 @@ charging_symbol = '󱐥'
 [nodejs]
 detect_folders = []
 
+[deno]
+format = 'via [$symbol($version )]($style) '
+
 [package]
 disabled = true
