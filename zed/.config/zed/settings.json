@@ -1,4 +1,10 @@
 {
+    "collaboration_panel": {
+        "dock": "left"
+    },
+    "git_panel": {
+        "dock": "left"
+    },
     "edit_predictions": {
         "provider": "zed"
     },
@@ -8,6 +14,7 @@
     "autosave": "off",
     "buffer_font_weight": 400.0,
     "agent": {
+        "dock": "right",
         "default_model": {
             "provider": "copilot_chat",
             "model": "gpt-4.1"
@@ -22,7 +29,7 @@
     "soft_wrap": "editor_width",
     "tab_size": 4,
     "use_on_type_format": false,
-    "buffer_font_family": "Liga MesloLGM Nerd Font",
+    "buffer_font_family": "CommitMono Nerd Font",
     "buffer_font_features": {
         "liga": true
     },
@@ -30,8 +37,8 @@
     "ui_font_family": "Metropolis",
     "ui_font_size": 15.0,
     "icon_theme": {
-        "dark": "Catppuccin Mocha",
-        "light": "Catppuccin Latte"
+        "dark": "Material Icon Theme",
+        "light": "Monospace Icon Theme - Light"
     },
     "theme": {
         "dark": "Catppuccin Espresso (Blur) [Light]",
@@ -54,9 +61,10 @@
         "show_nav_history_buttons": false
     },
     "terminal": {
+        "font_weight": 400.0,
         "copy_on_select": true,
         "font_fallbacks": ["FiraCode Nerd Font"],
-        "font_family": "Liga MesloLGM Nerd Font",
+        "font_family": "CommitMono Nerd Font",
         "font_features": {
             "liga": false
         },
@@ -69,5 +77,12 @@
     "toolbar": {
         "breadcrumbs": false,
         "quick_actions": false
+    },
+    "lsp": {
+        "jdtls": {
+            "settings": {
+                "java_home" : "/Users/krishna-13961/.asdf/installs/java/zulu-24.30.11/zulu-24.jdk/Contents/Home"
+            }
+        }
     }
 }
